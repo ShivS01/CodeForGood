@@ -5,3 +5,48 @@
   outline: none;
   list-style: none;
 }
+html {
+  font-family: "Patrick Hand", cursive;
+  color: #575988;
+  font-size: 1.5em;
+  background-color: #fffdf9;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+header,
+footer {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+header {
+  background-color: #beebe9;
+  justify-content: space-between;
+  padding: 0 120px;
+}
+footer {
+  background-color: #ffe3ed;
+  justify-content: center;
+}
+.navbar {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  height: 400px;
+}
+.quote {
+  margin: 20px;
+  padding: 10px;
+}
