@@ -6,12 +6,13 @@
   list-style: none;
 }
 html {
-  font-family: "Patrick Hand", cursive;
+ 
   color: #575988;
   font-size: 1.5em;
   background-color: #fffdf9;
 }
 body {
+  font-family: "Patrick Hand", cursive;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,6 +25,9 @@ footer {
   height: 60px;
 }
 header {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 36px;
   background-color: #beebe9;
   justify-content: space-between;
   padding: 0 120px;
@@ -37,16 +41,72 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.navbar li a{
+  color: #575988;
+  text-decoration: none;
+}
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  height: 100vh;
 }
-img {
-  height: 400px;
+.img-wrapper{
+  height: 70%;
+  width: 70%;
 }
 .quote {
+  font-size: 50px;
   margin: 20px;
   padding: 10px;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+.about-main h2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.self-love{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.self-love img{
+  height: 30%;
+  width: 30%;
+}
+.good-sleep{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.good-sleep img{
+  height: 30%;
+  width: 30%;
+}
+.meditation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meditation img{
+  height: 30%;
+  width: 30%;
 }
