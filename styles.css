@@ -6,7 +6,6 @@
   list-style: none;
 }
 html {
- 
   color: #575988;
   font-size: 1.5em;
   background-color: #fffdf9;
@@ -22,10 +21,10 @@ header,
 footer {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: auto;
 }
 header {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-weight: bold;
   font-size: 36px;
   background-color: #beebe9;
@@ -41,7 +40,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.navbar li a{
+.navbar li a {
   color: #575988;
   text-decoration: none;
 }
@@ -50,63 +49,55 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
-}
-.img-wrapper{
-  height: 70%;
-  width: 70%;
+  height: auto;
 }
 .quote {
   font-size: 50px;
   margin: 20px;
   padding: 10px;
 }
-
 .about-main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  
-  
 }
-.about-main h2{
+.about-main h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  
 }
-.self-love{
+.self-love {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.self-love img{
+.self-love img {
   height: 30%;
   width: 30%;
 }
-.good-sleep{
+.good-sleep {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.good-sleep img{
+.good-sleep img {
   height: 30%;
   width: 30%;
 }
-.meditation{
+.meditation {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.meditation img{
+.meditation img {
   height: 30%;
   width: 30%;
 }
