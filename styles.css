@@ -9,19 +9,20 @@ html {
   color: #575988;
   font-size: 1.5em;
   background-color: #fffdf9;
+  height: 100vh;
+  overflow-x: hidden;
 }
 body {
   font-family: "Patrick Hand", cursive;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
 }
 header,
 footer {
   display: flex;
   align-items: center;
-  height: 10vh; 
+  min-height: 60px;
 }
 header {
   font-family: "Amatic SC", cursive;
@@ -30,22 +31,18 @@ header {
   background-color: #beebe9;
   justify-content: space-between;
   padding: 0 120px;
-  
-
- 
 }
 footer {
   background-color: #ffe3ed;
   justify-content: center;
-  
-  
-  
+  position: relative;
+  width: 100%;
+  bottom: 0;
 }
 .navbar {
   width: 200px;
   display: flex;
   justify-content: space-between;
-  
 }
 .navbar li a {
   color: #575988;
@@ -57,11 +54,10 @@ footer {
   justify-content: space-around;
   align-items: center;
   height: auto;
- 
 }
-.main h1{
+.main h1 {
   margin: 20px;
-  padding-top: 200px ;
+  padding-top: 200px;
   padding-bottom: 30px;
 }
 
@@ -82,6 +78,4 @@ footer {
   width: 30%;
   margin-top: 30px;
   padding: 10px;
-
- 
 }
