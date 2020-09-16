@@ -21,7 +21,7 @@ header,
 footer {
   display: flex;
   align-items: center;
-  /* height: auto; */
+  height: 10vh; 
 }
 header {
   font-family: "Amatic SC", cursive;
@@ -30,15 +30,22 @@ header {
   background-color: #beebe9;
   justify-content: space-between;
   padding: 0 120px;
+  
+
+ 
 }
 footer {
   background-color: #ffe3ed;
   justify-content: center;
+  
+  
+  
 }
 .navbar {
   width: 200px;
   display: flex;
   justify-content: space-between;
+  
 }
 .navbar li a {
   color: #575988;
@@ -50,7 +57,12 @@ footer {
   justify-content: space-around;
   align-items: center;
   height: auto;
-  padding: 20px;
+ 
+}
+.main h1{
+  margin: 20px;
+  padding-top: 200px ;
+  padding-bottom: 30px;
 }
 
 .self-love,
@@ -60,11 +72,16 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 20px;
+  margin: 60px;
+  padding: 80px;
 }
 
 .self-love img,
 .good-sleep img,
 .meditation img {
   width: 30%;
+  margin-top: 30px;
+  padding: 10px;
+
+ 
 }
