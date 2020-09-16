@@ -21,7 +21,7 @@ header,
 footer {
   display: flex;
   align-items: center;
-  height: auto;
+  /* height: auto; */
 }
 header {
   font-family: "Amatic SC", cursive;
@@ -52,48 +52,19 @@ footer {
   height: auto;
   padding: 20px;
 }
-.about-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.about-main h2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.self-love {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
 
-.self-love img {
-  height: 30%;
-  width: 30%;
-}
-.good-sleep {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.good-sleep img {
-  height: 30%;
-  width: 30%;
-}
+.self-love,
+.good-sleep,
 .meditation {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin: 20px;
 }
 
+.self-love img,
+.good-sleep img,
 .meditation img {
-  height: 30%;
   width: 30%;
 }
