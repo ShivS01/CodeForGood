@@ -31,6 +31,7 @@ header {
   background-color: #beebe9;
   justify-content: space-between;
   padding: 0 120px;
+  height: 10vh;
 }
 footer {
   background-color: #ffe3ed;
@@ -57,7 +58,7 @@ footer {
 }
 .main h1 {
   margin: 20px;
-  padding-top: 200px;
+  padding-top: 140px;
   padding-bottom: 30px;
 }
 
@@ -68,14 +69,14 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 60px;
-  padding: 80px;
+  margin: 40px;
+  padding: 60px;
 }
 
 .self-love img,
 .good-sleep img,
 .meditation img {
-  width: 30%;
-  margin-top: 30px;
+  width: 40%;
+  margin-top: 20px;
   padding: 10px;
 }
